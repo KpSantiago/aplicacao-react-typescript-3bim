@@ -1,0 +1,40 @@
+.services_container {
+    background-color: #fff;
+    color: #000;
+    max-width: 100%;
+    height: 100vh;
+    max-height: 100vh;
+    position: relative;
+}
+
+.lambo_img_container {
+    height: 100%;
+    width: 100%;
+    clip-path: polygon(0 0, 90% 0, 55% 100%, 0 100%);
+    position: absolute;
+    z-index: 1;
+    left: -300px;
+}
+
+.services_apresentation {
+    max-width: 500px;
+    height: 350px;
+    position: absolute;
+    z-index: 2;
+    top: calc(50% - 160px);
+    right: 60px;
+}
+
+.services_apresentation .service_title {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.services_apresentation .text_services {
+    margin-bottom: 15px;
+}
+
+.services_apresentation .arrow_icon {
+    background-color: #fff;
+}

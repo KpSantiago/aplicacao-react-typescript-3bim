@@ -1,0 +1,108 @@
+.contact_container {
+    background-color: #fff;
+    color: transparent;
+    font-weight: 300;
+    max-width: 100vw;
+    height: 70vh;
+    max-height: 70vh;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+.innerBg {
+    background-color: #f6f6f6;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 160px;
+    padding-left: 120px;
+}
+
+.contact_title {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: 1.2px;
+}
+
+.contact_infos_container {
+    color: #000;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.contact_infos {
+    font-size: 1.15rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.contact_button {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.contact_button .arrow_container2 {
+    height: 3.2rem;
+    width: 2.75rem;
+    margin: 0;
+}
+
+.contact_button .arrow_container2 .arrow_icon {
+    background-color: #f6f6f6;
+}
+
+.contact_button .arrow_container2 .arrow_icon:hover {
+    background-color: #000;
+}
+
+.contact_button .text {
+    font-size: 1.2rem;
+}
+
+.comming_soon {
+    background-color: #050505;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text_container {
+    background: linear-gradient(90deg, rgb(136, 0, 255), rgb(0, 255, 247));
+    height: 60%;
+    width: 65%;
+    font-size: 1.75rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    animation: rgb 3s linear infinite;
+}
+
+@keyframes rgb {
+    100% {
+        filter: hue-rotate(360deg);
+    }
+}
+
+.comming_soon .text_container .text {
+    background-color: #050505;
+    color: #fff;
+    height: 90%;
+    width: 96.5%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}

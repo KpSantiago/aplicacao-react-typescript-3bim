@@ -1,0 +1,55 @@
+.creator_container {
+    background-image: url("../../../img/aventadorJ.jpg");
+    background-size: cover;
+    background-position-y: -120px;
+    background-repeat: no-repeat;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    padding-top: 140px;
+    padding-left: 140px;
+    color: #000;
+}
+
+.title_Creator {
+    font-size: 1.75rem;
+    
+}
+
+.creator_container h2 {
+    font-size: 3.75rem;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.options_containerInter {
+    color: rgb(60, 60, 60, 0.5);
+    display: flex;
+    gap: 60px;
+    margin-bottom: 10px;
+}
+.options_containerInter div {
+    padding-right: 10px;
+}
+.options_containerInter .option1 {
+    color: #000;
+}
+.options_containerInter div:hover {
+    color: #000;
+}
+.options_line {
+    display: flex;
+    
+}
+.options_line div {
+    background-color: rgb(120, 120, 120, 0.5);
+    width: 120px;      
+    height: 2px;
+}
+
+.options_line div:hover {
+    background-color: #000;
+}
+.options_line .line1 {
+    background-color: #000;
+}
+

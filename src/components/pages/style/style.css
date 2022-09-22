@@ -1,0 +1,33 @@
+.contactUs_container {
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    position: relative;
+    padding-left: 60px;
+}
+
+.cantact_title {
+    color: #000;
+    font-weight: 500;
+
+}
+
+.backImage {
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    right: -300px;
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 0 100%);
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.iconBack {
+    font-size: 32px;
+}

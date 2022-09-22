@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield&display=swap');
+
+.about_container {
+    background-image: url("../../../img/lamborghiniAbout.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-width: 100vw;
+    height: 100vh;
+    max-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 140px; 
+    padding-top: 140px;
+}
+
+.title_about {
+    font-size: 1.75rem;
+    margin-bottom: 30px;
+}
+
+.sub_title_about {
+    color: #f0c207;
+    font-family: 'Mrs Saint Delafield', cursive;
+    font-size: 8rem;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+
+.button_container {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+
+.button_container .arrow_container {
+    width: 45px;
+    height: 55px;
+}
+
+.apresentaion_text {
+    background-color: #fffd;
+    color: #000;
+    width: 420px;
+    height: 400px;
+    padding: 15px;
+    text-align: justify;
+}
